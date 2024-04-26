@@ -8,16 +8,18 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/* Can also not be moved under .para and do p.para.small-para instead */
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/* Can also be .button.confirm */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +31,8 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* Can also do text.child or div.child */
+div.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
