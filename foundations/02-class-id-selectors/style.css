@@ -1,0 +1,19 @@
+p.odd {
+  background-color: #e56076;
+  font-family: Verdana, "DevaVu Sans", sans-serif;
+}
+
+p.odd.multiple {
+  font-size: 24px;
+}
+
+div#second {
+  color: rgb(8, 8, 195);
+  font-size: 36px;
+}
+
+div#fourth {
+  background-color: hsl(120, 57%, 68%);
+  font-size: 24px;
+  font-weight: bold;
+}
